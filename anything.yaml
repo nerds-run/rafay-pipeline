@@ -1,0 +1,11 @@
+---
+replicaCount: 3
+service:
+  type: ClusterIP
+ingress:
+  enabled: true
+  ingressClassName: "traefik"
+  hostname: things.thing
+  path: /
+
+
